@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Accessible components</h1>
+    </header>
+    <main>
+    <section>
+        <h2>CSS toggle buttons</h2>
+        <div class="component-card">
+            <input type="checkbox" role="switch"  id="check">
+            <label for="check" aria-hidden="true">HTML toggle/checkbox (No CSS)</label>
+            <br />
+            <br />
+            <input type="checkbox" role="switch"  id="check1" class="toggle">
+            <label for="check1" aria-hidden="true">Toggle me</label>
+            <br />
+            <input disabled checked type="checkbox" id="check3" class="toggle">
+            <label for="check3">Disabled state</label>
+        </div> 
+    </section>
+</main>
+</body>
+</html>
