@@ -5,8 +5,12 @@ body {
     width: 50%;
 }
 
+h1, h2 {
+  font-weight: 400;
+}
 section {
     border-top: 2px dashed #101010;
+    padding-bottom: 2em;
 }
 
 .component-card {
@@ -82,4 +86,17 @@ input[type="checkbox"].toggle {
   
   input[type="checkbox"].toggle:disabled + label::after {
     background-color: #777;
+  }
+
+  /* Form styles */
+  form {
+    background: #272727;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+  }
+
+  .input-wrapper {
+    padding: 8px 0;
+    color:hsl(0, 0%, 100%);
   }

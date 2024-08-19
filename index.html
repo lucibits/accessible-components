@@ -26,6 +26,36 @@
             <label for="check3">Disabled state</label>
         </div> 
     </section>
+    <!-- <section>
+        <h1>Top level heading</h1>
+        <p>H1 elements have semantic meaning</p>
+        <span style="font-size: 32px; margin: 21px 0; display: block;">
+            Is this a top level heading?
+          </span>
+        <p>Span elements have no semantic meaning</p>
+    </section> -->
+    <section>
+        <h1>Form validation</h1>
+        <div class="errors" role="alert" aria-relevant="all">
+        <ul></ul>
+
+        </div>
+        <form>
+            <div class="input-wrapper">
+                <label for="name">Name?</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="input-wrapper">
+                <label for="age">Age?</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="input-wrapper">
+                <input type="submit">
+            </div>
+            <div></div>
+        </form>
+        <script src="validation.js"></script>
+    </section>
 </main>
 </body>
 </html>
